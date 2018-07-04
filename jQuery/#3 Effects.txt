@@ -1,0 +1,74 @@
+display
+hide б«ќЁ«Ѕ «бЏд’—
+show б«ўе«— «бЏд’—
+toggle бб »ѕнб »нд «б«ўе«— ж«б«ќЁ«Ѕ
+
+G:-
+$("Element").toggle(Speed,Callback function);
+
+Ex:-
+$("p").toggle(600, function(){$("p").toggle(600)});
+
+Ex:-
+$("p").toggle("fast", function(){$("p").toggle("spead")});
+
+*************************************************************
+
+display && opacity
+fadeIn б«ўе«— «бгќЁн
+fadeOut б«ќЁ«Ѕ «бгўе—
+fadeToggle бб »ѕнб »нд «б«ќЁ«Ѕ ж«б«ўе«—
+fadeTO ббж’жб «бм Ќѕ гЏнд гд «б‘Ё«Ён…
+
+G123:-
+$("Element").fadeIn(Speed,Callback function);
+
+G4:-
+$("Element").fadeTo(Speed,Opacity,Callback function);
+
+**************************************************
+display && height
+slideDown б«ўе«— «бгќЁн
+slideUp б«ќЁ«Ѕ «бгўе—
+slideToggle бб »ѕнб »ндег«
+
+G:-
+$("Element").slideDown(Speed,Callback function);
+
+*************************************************
+animate
+
+G:-
+$("Element").animate( { Css Style} , Speed ,Callback function);
+
+Ex:-
+$("p").animate({
+            fontSize:'60px',
+            color:'#00E',
+            width:'+=50px'
+        },1000);
+б«Ќў «б’Ё«  «бг“жѕћ…  Ќжб я«б« н
+font-size ==> fontSize
+
+нгяд я «»… ’Ё«  »е–е «бЎ—нё…
+width:'hide'
+
+гб«Ќў… Ён «б«днг  н г  дЁн– «б«яж«ѕ »«б — н» Ќ”» «бЁ—жё «б“гдн…
+Ён г  дЁн– «б«днг  «б«жб я«гб« Ћг «б–н нбне
+************************************
+STOP Animate
+stop
+
+G:-
+$("Element").stop(clearQueu, goToEnd);
+
+гб«Ќў… «бёнг «б«Ё —«÷н… false
+Џдѕг« няжд ед«я еѕ… «днг«  ЁЏдѕг« 
+ яжд «бябн—  —ж Ё«де нёжг »«нё«Ё «б«днг«‘д ж«г« «–« я«д Ёб” Ёнёжг »«нё«Ё «б«днг‘д «б–н нЏгб жнёжг » ягб… «б«днге«  «б«ќ—м
+жЏдѕг«  яжд ћж  ж «дѕ Ёб” Ё«де Џдѕ «б«нё«Ё нжёЁ «б«днг«  ЁёЎ «г« «–« я«д  —ж Ё«де н« н »де«н… Џгб «б«днг«  «н «ќ— бёЎ… Ёне
+
+************************************
+Chain
+нгяд я «»… «бяжѕ »Ў—нё… «б”б”б… я«б «бн
+$("p").fadeOut(1000).fadeIn(1000);
+

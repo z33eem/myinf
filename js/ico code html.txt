@@ -1,0 +1,10 @@
+<link rel="icon" href="favicon.png" sizes="16x16" type="image/png" >
+<link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml">
+
+Good Picture
+
+<picture>
+  <source media="(min-width: 1280px)" srcset="large1x.png, large2x.png 2x">
+  <source media="(min-width: 768px)" srcset="medium1x.png, medium2x.png 2x">
+  <img src="default.png" srcset="default2x.png 2x" alt="image description">
+</picture>

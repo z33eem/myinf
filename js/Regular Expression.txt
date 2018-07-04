@@ -1,0 +1,26 @@
+/patren/attributes
+
+Attributes
+i = case insensitive ÇáÍÑæİ ÇáÍÓÇÓÉ ßÇÈíÊÇá Çæ ÓãÇáá
+g = global search ÊÚäí ÇáÈÍË ÏÇÎá ÇáãÊÛíÑ ßÇãáÇ
+m = multi line ÊÚäí ÇáÈÍË İí ßá ÇáÓØæÑ ÇĞÇ ßÇä ÇáãÊÛíÑ ÇßËÑ ãä ÓØÑ
+
+Brackets Use
+[a] charcter Ãí ÈÏá ßá ÍÑæİ ÇáÇíÉ
+[^a] not charcter Çí ÈÏá ßá ÇáÍÑæİ ãÇ ÚÏÇ ÇáÇíÉ
+[a-e] range Çí ÈÏá ßá ÇáÍÑæİ Çááí  ãä ÇíÉ áÃí
+[0-9] range number
+[^0-9] not range Çí ÈÏá ßá ÇáãæÌæÏ ÚÏÇ ÇáÇÑŞÇã
+[A-g] = range[A-Z] & range[a-g] ÇáßÇÈíÊÇá æÇáÓãÇá ÈíİÑŞ
+[0-9a-z]double change
+
+Quantifiers
+letter+ == word contain one letter Çí ÍÑİ Çí æÇÍÏ İŞØ
+letter{Number} == word contain number lette Çí ÊÍÊæí Úáì ÚÏÏ ãÍÏÏ ãä ÇáÍÑæİ ÇáãÊÊÇáíÉ íŞæã ÈÊÛíÑåÇ ßáåÇ áÍÑİ æÇÍÏ
+letter{Number,Number} == word contain number or number ÊÍÊæí Úáì ÚÏÏ ÍÑæİ ßĞÇ Çæ ßĞÇ Îáİ ÈÚÖåã æíŞæã ÈÊÛíÑåßã ßáåã áÍÑİ æÇÍÏ
+letter{Number,} == word contain At least numer Çí ÊÍæÊ Úáì ÇáÇŞá ÇáÑŞã ÇáãÍÏÏ İãäå Çæ ÇßËÑ íŞæã ÈÊÈÏíáåã Çáì ÔíÆ ãÚíä
+
+ãËÇá
+var string = "my name is mohamed",
+    result = string.replace(/[e]/g, "o");
+console.log(result);

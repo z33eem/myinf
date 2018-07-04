@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="cont">
+            <div id="form">
+                <h1>Sign Up</h1>
+                <label>Username :</label>
+                <input type="text" placeholder="Username" id="username" value="" maxlength="12">
+                <div class="wr-ri" id="w_username">
+                </div>
+                
+                <label>Lastname :</label>
+                <input type="text" placeholder="Lastname" id="lastname" value="" maxlength="12">
+                <div class="wr-ri" id="w_lastname">
+                </div>
+                
+                <label>E-mail :</label>
+                <input type="text" placeholder="E-mail" id="email" value="">
+                <div class="wr-ri" id="w_email">
+                </div>
+                
+                
+                <label>Re E-mail :</label>
+                <input type="text" placeholder="Re E-mail" id="reemail" value="">
+                <div class="wr-ri" id="w_reemail">
+                </div>
+                
+                <label>Password :</label>
+                <div id="pass">
+                    <input type="password" placeholder="Password" id="password" value="">
+                        <div id="fillpass">
+                            <style>#showpass{opacity: .2}</style>
+                        </div>
+                        <div id="hidepass"></div>
+                        <div id="showpass"></div>
+                    
+                </div>
+                
+                <div class="wr-ri" id="w_password">
+                    
+                </div>
+                
+                <label>User Gentle</label>
+                <select id="gentle">
+                    <option value="0" disabled selected>User Gentle</option>
+                    <option>Male</option>
+                    <option>FMale</option>
+                </select>
+                <div class="wr-ri" id="w_gentle">
+                </div>
+                
+                <label>Birh Date</label>
+                <div id="selcet">
+                <select id="ssselect">
+                    <option value="0" disabled selected>year</option>
+                </select>
+                <select id="sselect">
+                    <option value="0" disabled selected>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>July</option>
+                    <option>Sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Des</option>
+                </select>
+                <input class="sselect" type="text" id="day" placeholder="Day" value="" maxlength="2">
+                
+                </div>
+                <div class="wr-ri" id="w_day">
+                </div>
+                
+                <div id="button"><div id="btn">Sign Up</div></div>
+                
+            </div>
+        
+        </div>
+        
+        <script src="main.js"></script>
+        
+    </body>
+</html>

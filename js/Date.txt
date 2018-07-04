@@ -1,0 +1,65 @@
+new Date(); == print current Date & Time Çí ØÈÇÚÉ ÇáÊÇÑíÎ æÇáæŞÊ ÇáÍÇáí
+new Date(Millseconds[5000 = 5s]); == print millseconds from UTC 1 Jan Date String íŞæã ÈßÊÇÈÉ ãíá ÓÇßäÏ
+new Date(Datestring[month Day, Year Hour:minute:seconds]); == Add date string íŞæã ÈÇÖÇİÉ ÊÇÑíÎ ÇÓÊÑíÈÌ íÌæÒ ÍĞ ÇáßæãÇ æÊÛííÑ ÇáÇãÇßä ÚÇÏí
+new Date(year, month, day, hour, minutes, seconds, millseconds);íŞæã ÈÇÖÇİÉ ÇáÊÇÑíÎ
+íİÖá æÖÚ ÇáÔåÑ ŞÈá Çáíæã
+new Date("10/28/2001 10:30"); //short date
+new Date("YYYY-MM-DD hh:mm:ss TZD"); //Iso Date
+TZD ÊÚäí ÇáÊÇíã Òæææä
+new Date("YYYY-MM-DD hh:mm:ss+03:00")
+
+ÈÚÖ ÇáÏæÇá ÇáãåãÉ
+getDate();áÌáÈ Çáíæã ÈÇáäÓÈÉ ááÔåÑ 1-31
+getDay(); áÌáÈ Çáíæã ÈÇáäÓíÉ ááÃÓÈæÚ æÇáÇÓÈæÚ íÈÏÃ ãä íæã ÇáÃÍÏ 0-6
+getFullYear(); áÌáÈ ÇáÓäÉ
+getHours(); áÌáÈ ÇáÓÇÚÇÊ 0-23
+getMinutes(); áÌáÈ ÇáÏŞÇíŞ 0-59
+getSeconds(); áÌáÈ ÇáËæÇäí0-59
+getMilliseconds(); 0-999
+getTime(); áÌáÈ Çáããáí ÓßäÏÓ ãä ÓäÉ 1970
+getTimeZoneOffset(); áÌáÈ ÇáÑŞ Èíä ãäØŞÊß æÎØ ÌÑíÊäÊÔ
+íãßä ÇÖÇİÉ íæÊíÓí ÈÚÏ ÌíÊ áÌáÈ ÇáæŞÊ ãä ÎØ ÌÑíäÊÔ
+getUTCDay();
+
+
+
+
+setDate(day[req]);áÊÛííÑ ÇáÊÇÑíÎ Çáìíæã ãÚíä 01-31
+setFullYear(year[req], month[opt], day[opt]); áÇÏÎÇá ÇáÓäÉ
+setHours(hour[req], min[opt], sec[opt], millisec[opt]); áÇÏÎÇá ÇáÓÇÚÇÊ 0-23
+setMinutes(min[opt], sec[opt], millisec[opt]); áÇ ÏÎÇá ÇáÏŞÇíŞ 0-59
+setSeconds(sec[opt], millisec[opt]); áÇÏÎÇá ÇáËæÇäí0-59
+setMilliseconds(millisec[opt]); 0-999 áÒíÇÏÉ ãíááí ÓÇßäÏÓ ÊŞæã ÈÇáÇÖÇİÉ Úáì ÇáÍÇáí
+setMonth(month[req], day[opt]); 0-11 áÇÏÎÇá ÇáÔåÑ ãÍÏÏ
+
+Èãßä ÇÖÇİÉ íæÊÓí ÈÚÏ ÓíÊ ááÊÚÏíá Úáì ÇáæŞÊ ÇáÚÇáãí ÌÑíäÊÔ ÈÏá ãä ÇáÊÚÏíá Úáì ÇáæŞÊ ÇáÎÇÕ ÈÇáÌåÇÒ ãËá
+setUTCDay();
+
+
+ãáÍæÙÉ ÚäÏ ßÊÇÈÉ ŞíãÉ ÛíÑ ÇáãØáæÈÉ íŞæã ÈíÊäİíĞåÇ İíãÇ ÈÚÏåÇ Çæ İíãÇ ŞÈáåÇ
+İãËáÇ İí ÇáÓíÊ ÏíÊ ÚäÏ ßÊÇÈÉ 0 íŞæã ÈÌáÈ Çáíæã ÇáÇÎíÑ İí ÇáÔåÑ ÇáãÇÖí æÇĞÇ ßÊáÊ ŞíãÉ ÇÚáì İãËáÇ ÚäÏãÇ íßæä ÇáÔåÑ 30 æŞãäÇ ÈßÊÇÈÉ æÇÍÏ æËáÇËíä íŞæã ÈÌáÈ Çáíæã ÇáÇæá İí ÇáÔåÑ ÇáÊÇáí
+æßĞáß ÇĞÇ ßÇäÊ ÇáŞíã ÈÇáÓÇáÈ íŞæã ÈÌáÈ ÇÎÑ ÇáÇíÇã İí ÇáÔåÑ ÇáĞí ŞÈáå
+
+var string = new Date(),
+    result = string.getDate();
+console.log(result);
+
+
+now();
+
+date.now();
+áÌáÈ ÚÏÏ Çáããáí ÓßÇäÏÓ ãäĞ 1970 
+
+íãßä ÌáÈ ÇáãíäÊÓ ãäĞ ÓäÉ 1970 ßÇáÊÇáí
+Date.now()/(1000*60)
+
+parse();
+Date.parse(25 october 1982 12:50:20);
+áÌáÈ Çáãíá ÓÇßäÏÓ ãä ÓäÉ ãÚíäÉ áÍÏ ÏáæŞÊ ãËá ÏÇáÉ äÇæ
+
+
+
+íãßä ÚÑÖ ÇáÊÇÑíÎ ÈÇÔßÇá ãÎÊáİÉ
+toIsoString();
+toDateString();
+toTimeString();

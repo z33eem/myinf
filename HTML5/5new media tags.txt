@@ -1,0 +1,21 @@
+audio ==>
+    <audio controls autoplay loop muted preload="auto">
+        <source src="media/1.mp3" type="audio/mp3">
+        Your Browser Dont Suppor Audio
+    </audio>
+    
+    preload == auto لتحميل ملف الاوديو مع الصفحة
+            == none لا يتم تحميل الملف مع الصفحة
+            == metadata تحميل معلومات الاوديو فقط مع الصفحة
+    source == يفضل عمل اكثر من سورس باكثر من صيغة لكي يستطيع المتصفح تشغيله
+    yor browser... == مجرد رسالة لتعرف المستخدم بعدم دعم متصفحه للاوديو
+    
+
+video ==> نفس الاوديو الا انه يختلف في التراك والبوستر والابعاد
+
+    <video width="300px" height="300px" controls poster="media/me.jpg">
+        <source src="media/me.mp4" type="video/mp4">
+        your browser doesnt suppor vides
+    </video>
+    
+    poster ==> الصورة التي تظهر قبل تشغيل الفيديو

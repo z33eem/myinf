@@ -1,0 +1,57 @@
+/*global console, alert, prompt*/
+
+var res = document.getElementById("res");
+function ress() {
+    
+    
+    "use strict";
+    var num = document.getElementById("num").value;
+    
+    
+    switch (num) {
+    case "":
+        
+        res.innerHTML = "ÃÏÎá ÚãÑß";
+        break;
+    case num > 0:
+        
+        res.innerHTML = "íÌÈ Ãä íßæä ÇáÚãÑ ÈÇáãæÌÈ";
+        break;
+    case "0":
+        
+        res.innerHTML = "ÈÌÈ ÅÏÎÇá ÇáÚãÑ ÇáÕÍíÍ";
+        break;
+    default:
+        
+        res.innerHTML = "<div style='background:#ccc; padding:10px;border-radius:5px;width:200px;margin:0 auto;'>" + num + " years " + "= " + (num * 365 * 24 * 60) + " Mins</div>";
+        break;
+
+    }
+}
+
+
+Ôßá ÇÎÑ
+
+var month = 2;
+
+switch(month) {
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    days = 31;
+    break;
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    days = 30;
+    break;
+  case 2:
+    days = 28;
+}
+
+console.log("There are " + days + " days in this month.");

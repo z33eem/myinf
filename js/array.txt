@@ -1,0 +1,177 @@
+ÇáäæÚ ÇáÇæá: áÇíÓÊÎÏã ßËíÑÇ
+
+var friends = new Array ("ahmed", "mohamed", "mahmoud");
+var friends = new Array();
+
+friends[0] = "ahmed";
+friends[1] = "mohamed";
+friends[2] = "mahmoud";
+
+console.log(friends);
+console.log(friends[0]);
+
+array ÚÈÇÑÉ Úä ÓÈíÔÇá İÇÑíÈÇá
+
+ÇáäæÚ ÇáËÇäí: ÓäÓÊÎÏãå
+
+var friends = ["ahmed", "mohamed", "mahmoud"];
+var friends = [];
+
+friends[0] = "ahmed";
+friends[1] = "mohamed";
+friends[2] = "mahmoud";
+
+console.log(friends);
+console.log(friends[0]);
+
+
+áÚãá ÊÔíß ááÇÑÇí æãÚÑİÉ ãÇ ÇĞÇ ßÇäÊ ÇÑÇí Çæ áÃå
+if (Array.isArray(friends)) {
+    console.log("Good");
+    
+} else {
+    console.log("Bad");
+}
+
+ØÑíŞÉ ÇÎÑí áÚãá ÊÔíß
+
+if (friends.constructor === Array) {
+    console.log("Good");
+    
+} else {
+    console.log("Bad");
+}
+
+
+
+áãÚÄİÉ ÚÏÏ ÇáÚäÇÕÑ ÏÇÎá Çá ÇÑÇí
+length
+ÊÈÏÇ ÇáÊÑÊíÈ ãä ÑŞã æÇÍÏ æáíÓ ÕİÑ
+
+console.log(friends.length);
+
+
+
+áÌáÈ ÚÏÏ ãÍÏÏ ãä ÚäÇÕÑ ÇáÇÑÇí 
+
+friends.length = 2;
+console.log(friends);
+
+
+áÊÍæíá ÇáãÕ
+
+İæİÉ Çáì ÇáäæÚ string
+
+friends = friends.toString();
+
+Ãæ
+
+friends = friends.toLocaleString();
+
+Ãæ
+friends = friends.join();
+friends = friends.join(",,");
+
+
+áÅÖÇİÉ ÚäÇÕÑ ááãÕİæİÉ
+
+
+friends[friends.length] = "taha";
+
+
+
+
+friends.push("Taha"); ÊÖÇİ İí ÇÎÑ ÇáãÕİæİÉ
+
+friends.unshift("Taha"); ÊÖÇİ İí Ãæá ÇáãÕİæİÉ
+
+friends.splice(1, 0, "Taha"); áÅÖÇİÉ ÚäÕÑ İí ãßÇä ãÍÏÏ İí ÇáãÕİæİÉ
+1=  ÊÑÊíÈ ÇáÚäÕÑ ÇáãÑÇÏ ÇáÇÖÇİÉ ŞÈáå
+0=  ÇáÚäÇÕÑ ÇáãÑÇÏ ÍĞİåÇ 
+"taha" = ÇáÚäÇÕÑ ÇáãÑÇÏ ÅÖÇİÊåÇ
+
+
+áÍĞİ ÚäÇÕÑ ãä ÇáãÕİæİÉ
+
+friends.pop(); áÍĞİ ÇÎÑ ÚäÕÑ ãä ÇáãÕİæİÉ
+
+friends.shift(); áÍĞİ Çæá ÚäÕÑ ãä ÇáãÕİæİÉ
+
+
+friends.splice(1, 5,); áÍĞİ ÚäÇÕÑ ãÍÏÏÉ ãä ÇáãÕİæİÉ
+
+
+áÊÑÊíÈ ÇáãÕİæİÉ ÊÑÊíÈ ÇÈÌÏí
+friends.sort();
+
+áÚßÓ ÊÑÊíÈ ÇáãÕİæİÉ
+friends.reverse();
+
+
+áÃÎĞ ÌÒÁ ãä ÇáãÕİæİÉ
+
+var somefriends = friends.slice(1,4);
+
+var somefriends = friends.slice(-4,-1);
+ÊÈÏÃ ãä ÃÓİá áÃÚáì
+
+1:åæŞíãÉ ÇáÈÏÇíÉ
+4:åæ ŞíãÉ ÇáäåÇíÉ
+
+ááÑÈØ Èíä ÏÇáÊíä
+var allfriends = friends.concat(workfriends);
+
+
+
+ááÈÍË Úä ÚäÕÑ ÏÇÎá ÇáãÕİæİæ
+
+ÇáØÑíŞÉ ÇáÇæáì
+var specialfriend = friends.indexOf("mahmoud", 1);
+
+console.log(friends[specialfriend]);
+
+mahmoud: ÇÓã ÇáÚäÕÑ
+1:ÇáÇäÏßÓ ÇáĞí ÓíÈÏÃ ãäå ÇáÈÍË æíãßä ÍĞİå æÊßæä ŞíãÊå ÇáÇİÊÑÇÖíÉ ÕİÑ
+
+ãáÍæÙÉ: áãßä ÇÓÊÎÎÏáã ááÇäÏßÓ ããÚÙã ÇáÚäÇÕÑ ÇáÇÎÑì ÏÇÎá åÊãá
+
+ÇáØÑíŞÉ ÇáËÇäíÉ ááÈÍË ãä ÇÓİá áÇÚáí ÊÎÊáİ Úä ÇáÇæáí İí ÑŞã ÈÏÇíÉ ÇáÈÍË İŞØ
+
+
+var specialfriend = friends.lastIndexOf("mahmoud", 5);
+
+
+
+
+ÔÇåÏ
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
+áÇÍÙ ÇÓÊÎÏÇã ÇáÊßÑÇÑ ãÚ ÇáãÕİæİÉ
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+// the variable `i` is used to step through each element in the array
+for (var i = 0; i < donuts.length; i++) {
+    donuts[i] += " hole";
+}
+
+Çæ ÈÇÓÊÎÏÇã forEach
+
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts.forEach(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  console.log(donut);
+});
+
+Çæ ÈÇÓÊÎÏÇã map
+ÊÓÊÎÏã áÚãá ÊßÑÇÑ æÍİÙå İí ãÕİæİÉ ÌÏíÏÉ
+
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"]
+var improvedDonuts = donuts.map(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  return donut;
+});
+

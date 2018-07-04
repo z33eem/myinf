@@ -1,0 +1,38 @@
+innerText
+outerText
+innerHtml ÊŞæã ÈÌáÈ ãÇÈÏÇÎá ÇáÚäÕÑ ßÇãáÇ
+outerHtml
+textContent  ÊŞæã ÈÌáÈ ÇáäÕæÕ İŞØ ÇáÊí ÊæÌÏ ÏÇÎá ÇáÚäÕÑ ÇáÇİÖá ááÇÓÊÎÏÇã
+
+áÌáÈ ÇáÚäÕÑ
+varName.innerHtml;
+áÊÚÏíá ÇáÚäÕÑ
+varName.innerHtml = 'hhhh';
+
+__________________
+attributes...
+var.attribute;
+var.attribute = '';
+var.src = '';
+var.getAttribute('Attribute Name'); áÌáí ÕİÉ ÎÇÕÉ ÈÚäÕÑ
+var.setAttribute('Attribute Name', 'Attribute Value'); áÊÛíÑ ÕİÉ ÎÇÕÉ ÈÚäÕÑ
+
+áãÚÑİÉ ãÇ ÇĞÇ ßÇä ÇáÚäÕÑ  íÍÊæí Úáì ÇÊÑÈíæÊ ãÚíä Çæ áÇ
+var get = document.querySelector('div');
+get.setAttribute('id', 'hi');
+
+if (get.hasAttribute('alt')) { #####
+    console.log('yes');
+} else {
+    console.log('no');
+}
+
+áÍĞİ ÇÊÑÈíæÊ ãÚíä
+var get = document.querySelector('div');
+get.setAttribute('id', 'hi');
+
+if (get.hasAttribute('alt')) {
+    get.removeAttribute('alt'); #####
+} else {
+    console.log('no');
+}

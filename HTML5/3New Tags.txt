@@ -1,0 +1,52 @@
+Header ==> الراس  
+Nav ==> القائمة navigation 
+Article ==> الموضوع
+Section ==>  الجزء 
+Footer ==> ذيل الصفحة 
+
+Main ==> هو التاج الرئيسي لايستخدم الا مرة واحدة في الصفحة ولا يستخدم الا في صفحة واحدة فقط ولا يمكن ان يوجد داخل تاجات اخرى يجب اني كون هو التاج الرئيسي
+Aside ==>  الجانب sidebar
+
+progress ==> شريط للتقدم 
+<progress max="100" value="60"></progress>
+
+meter ==> شريط مختلف
+<meter min="0" max="1" low=".3" high=".7" value=".5" opimum=".5" ></meter>
+
+details ==> زر عند الضغط عليه يعطي مزيد من المعلومات
+summary ==> تستخدم مع الديتيلز لتغير العنوان
+<details>
+    <summary>Refrences</summary>
+    <ul>
+        <li>ref2</li>
+        <li>ref3</li>
+        <li>ref4</li>
+    </ul>
+</details>
+
+mark ==> يقوم بتظليل النص
+wbr ==> يحدد للمتصفح المنطقة التي يقوم بعمل بريك للنص من عندها ولا توجد له قافلة
+
+figure  ==> يستخدم لتوضيح شيء ما لايؤثر عدم وجوده
+figcaption ==> يستخدم لوصف  ال فيجر
+<figure>
+    <code>
+        &lt;div&gt;That is anormal div&lt;/div&gt;
+    </code>
+    <figcaption>Code 3-5</figcaption>
+</figure>
+
+time ==> يستخدم لتحديد الوقت جيد جدا مع محركات البحث
+<time datetime="2017-10-17 16:40:22">17/10/2017</time>
+
+dialog ==> يستخدم لمربع مخفي يتم اظهاراه بالجافا
+
+dbi ==> يستخدم لعمل اتجاه محدد للنصوص لتفادي مشاكل تغيير اللغات كالعربية والانجلزية
+<ul>
+    <li>Ahmed: 50 points</li>
+    <li>Sayed: 74 points</li>
+    <li><bdi>علي</bdi>: 20 points</li>
+</ul>
+
+
+

@@ -1,0 +1,33 @@
+    <div id="main">
+        <h1>hello!!</h1>
+        <!-- comment -->
+        <p>my name is mhmd</p>
+    </div>
+
+var classes = document.getElementById('main');
+console.log(classes.children.length);
+//бћб» Џѕѕ «б«бнгд ” ѕ«ќб «бѕнЁ
+
+console.log(classes.children[0]);
+//бћб» «жб Џд’— Ён «бѕнЁ жя–бя гЏ «б»«ён
+
+console.log(classes.childElementCount);
+//бћб» Џѕѕ «б«бнгд ” ѕ«ќб «бѕнЁ
+
+console.log(classes.childNodes.length);
+//бћб» Џѕѕ «бЏд«’— ѕ«ќб «бѕнЁ ”ж«Ѕ я«д   ня”  «ж «нбнягд  «ж яжгд  жнёжг »Ќ”» «бг”Ў—… Џбм «де«  ня”  жя–бя «б«д —
+
+console.log(classes.firstChild);
+//бћб» «жб Џд’— ”ж«Ѕ я«д «нбнгд  «ж ‘нЅ «ќ—
+
+console.log(classes.firstElementChild);
+//бћб» «ж «бнгд 
+
+console.log(classes.lastChild);
+//бћб» «ќ— Џд’— ”ж«Ѕ я«д нбнгд  «жџн—…
+
+console.log(classes.lastElementChild);
+//бћб» «ќ— «бнбнгд 
+
+
+

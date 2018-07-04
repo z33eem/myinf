@@ -1,0 +1,64 @@
+function ahmed(param1, param2, param3) {
+    "use strict";
+    alert(age);
+    return age;
+}
+
+ÇáãÚÇãá (Parameter) ÚÇÏÉ ãÇ íßæä ÅÓã ãÊÛíÑ æíÙåÑ İí ÊÚÈíÑ ÇáÏÇáÉ. ãä äÇÍíÉ ÃÎÑì¡ Óíßæä ÇáæÓíØ 
+(Argument) ÏÇÆãğÇ ÚÈÇÑÉ Úä ŞíãÉ (ãËá Ãíø ãä ÃäæÇÚ ÈíÇäÇÊ JavaScript - ÑŞã Ãæ ÓáÓáÉ Ãæ ŞíãÉ ãäØŞíÉ æÛíÑåÇ.) æÓíÙåÑ ÏÇÆãÇğ İí ÇáßæÏ ÚäÏ ØáÈ ÇáÏÇáÉ Ãæ ÇÓÊÏÚÇÆåÇ.
+
+Self Invoke
+
+(function ahmed(param1, param2, param3) {
+    "use strict";
+    alert(age);
+    return age;
+}());
+
+
+ãáÍæÙÉ ãåãÉ ÌÏÇ return
+ÊÊÓÈÈ İí ÇíŞÇİ ÇáÏÇáÉ ÇĞÇ æÕá ÇáßæÏ ÇáíåÇ İãËáÇ
+function sleep() {
+  console.log("I'm sleepy!");
+  return "zzz";
+  return "snore";
+}
+
+sleep();
+
+ÊŞæã ÇáÏÇáÉ ÈØÈÇÚÉ zzz İŞØ
+
+ÎÇÕíÉ hoisting
+
+ÊÑİÚ JavaScript ÅÚáÇäÇÊ ßá ãä ÇáÏÇáÉ æÇáãÊÛíÑ Åáì ÃÚáì ÇáäØÇŞ ÇáÍÇáí.
+ÊÚííäÇÊ ÇáãÊÛíÑ áÇ íÊã ÑİÚåÇ.
+ÅÚáÇä ÇáÏæÇá æÇáãÊÛíÑÇÊ ÃÚáì ÇáÈÑÇãÌ ÇáäÕíÉ¡ áĞÇ İÅä ÇáÕíÛÉ æÇáÓáæß ãÊäÇÓŞÇä ãÚ ÈÚÖåãÇ ÇáÈÚÖ.
+
+ÊÚÈíÑÇÊ ÇáÏÇáÉ
+åí ÇÓÊÎÏÇã ÇáÏÇáÉ ßãÊÛíÑ
+ãËÇá
+
+var doSomething = function(y) {
+  return y + 1;
+};
+// named function expression
+var doSomething = function addOne(y) {
+  return y + 1;
+};
+
+
+
+
+ÇáÏÇáÉ ÇáÖãäíÉ ÈÊãÑíÑ ÏÇáÉ Çáì ÏÇáÉ ÇÎÑì ãËÇá
+
+// function declaration that takes in two arguments: a function for displaying
+// a message, along with a name of a movie
+function movies(messageFunction, name) {
+  messageFunction(name);
+}
+
+// call the movies function, pass in the function and name of movie
+movies(function displayFavorite(movieName) {
+  console.log("My favorite movie is " + movieName);
+}, "Finding Nemo");
+

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML5 COURSE</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!--[if lt IE 9]>
+            <scritpt src='js/html5shiv.js'></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- start header -->
+        <header class="header">
+            <h1>HTML5 COURSE</h1>
+        </header>
+        <!-- end header -->
+        
+        <!-- strat navigation -->
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Srtvices</li>
+                <li>Contact us</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <main>Agood COURSE FOT <mark>HTML5</mark> SEE it NOw</main>
+        <!-- end navigation -->
+        
+        <!-- start posts -->
+        <div class="posts">
+            <article>
+                <header>
+                    <h3>Article #01</h3>
+                    <p>Published by <span>Mohamed Al-Zaeem</span> on <span>15<sup>th</sup> Oct</span></p>
+                </header>
+                <section>
+                    <div>
+                        coding : <progress max="100" value="75"></progress><br>
+                        style : <progress max="100" value="60"></progress>
+                    </div>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Learn &lt;details&gt;</h3>
+                    <p>Published by <span>Mohamed Al-Zaeem</span> on <span>15<sup>th</sup> Oct</span></p>
+                </header>
+                <section>
+                    <p>That is the Article #02</p>
+                    <div>
+                        <details>
+                            <summary>Refrences</summary>
+                            <ul>
+                                <li>ref2</li>
+                                <li>ref3</li>
+                                <li>ref4</li>
+                            </ul>
+                        </details>
+                    </div>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Learn &lt;wbr&gt;</h3>
+                    <p>Published by <span>Mohamed Al-Zaeem</span> on <span><time datetime="2017-10-17 16:40:22">17/10/2017</time></span></p>
+                </header>
+                <section>
+                    <p>That is the Article #03</p>
+                    <div class="longlink">https://www.facebook.com/if=<wbr>100&mels=1000&ana=;<wbr>sslldas;asmasd;akdkaskd</div>
+                </section>
+            </article>
+            
+            
+            <article>
+                <header>
+                    <h3>Learn &lt;Figure&gt;</h3>
+                    <p>Published by <span>Mohamed Al-Zaeem</span> on <span>15<sup>th</sup> Oct</span></p>
+                </header>
+                <section>
+                    <p>That is the the code of html</p>
+                    <figure>
+                        <code>
+                            &lt;div&gt;That is anormal div&lt;/div&gt;
+                        </code>
+                        <figcaption>Code 3-5</figcaption>
+                    </figure>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Learn &lt;Video&gt;</h3>
+                    <p>Published by <span>Mohamed Al-Zaeem</span> on <span>15<sup>th</sup> Oct</span></p>
+                </header>
+                <section>
+                    <p>That is the the code of Video</p>
+                    <video width="400px" height="400px" controls poster="media/me.jpg">
+                        <source src="media/me.mp4" type="video/mp4">
+                        your browser doesnt suppor vides
+                    </video>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Learn &lt;Form&gt;</h3>
+                    <p>Published by <span>Mohamed Al-Zaeem</span> on <span>15<sup>th</sup> Oct</span></p>
+                </header>
+                <section>
+                    <p>That is the the NEW Form</p>
+                    <form class="form5">
+                        <label>Color:</label>
+                        <input type="color" name="theme" value="#dfdfdf">
+                        <label>Range:</label>
+                        <input type="range" name="range" min="0" max="100" step="10" value="20">
+                        <label>Number:</label>
+                        <input type="number" min="0" max="15" value="10">
+                        <label>Email:</label>
+                        <input type="email" name="email">
+                        <label>Search:</label>
+                        <input type="search" name="search">
+                        <label>Url:</label>
+                        <input type="url" name="link">
+                        <label>Tel:</label>
+                        <input type="tel" name="telephone">
+                        <label>Time:</label>
+                        <input type="time" name="timing">
+                        <label>Datetime:</label>
+                        <input type="datetime-local" name="datetime">
+                        <label>Date:</label>
+                        <input type="date" name="date">
+                        <label>month:</label>
+                        <input type="month" name="month">
+                        <label>week:</label>
+                        <input type="week" name="week">
+                        
+                        <input type="submit" value="send">
+                    </form>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Article About Using New Form Attributes</h3>
+                    <p>Published by <span>Mohamed Al-Zaeem</span> on <span>15<sup>th</sup> Oct</span></p>
+                </header>
+                <section>
+                    <p>New Form Attributes</p>
+                    <form class="form5" id="main-form" action="me.php" method="get">
+                        <input type="text" name="username" placeholder="Type Your Name" autocomplete="off">
+                        <label>upload File</label>
+                        <input type="file" multiple name="file">
+                        <label>Email</label>
+                        <input type="email" name="email" multiple autofocus="on">
+                        <label>Number</label>
+                        <input type="number" min="0" max="100" step="10" name="num">
+                        <label>pattern</label>
+                        <input type="text" pattern="" name="pattern">
+                        <label>readOnly</label>
+                        <input type="text" value="HH" readonly>
+                        <input type="submit" value="default send">
+                        <input type="submit" formaction="ana.php" formmethod="post" value="other send">
+                        <input type="submit" value="Send Without validate" formnovalidate>
+                        <input type="submit" value="Send to other page" formtarget="_blank">
+                        
+                    </form>
+                    <label>Nickname</label>
+                    <input type="text" name="nickname" form="main-form" required>
+                </section>
+            </article>
+            
+        </div>
+        <!-- end posts -->
+        
+        <!-- start sidebar -->
+        <aside>
+            <section>
+                <h3>Chapters</h3>
+                <ul>
+                    <li>Chap1</li>
+                    <li>Chap2</li>
+                    <li>Chap3</li>
+                    <li>Chap4</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h3>Work</h3>
+                    CPU : <meter min="0" max="1" low=".3" high=".7" value=".5" opimum=".5" ></meter>
+            </section>
+            
+            <section>
+                <h3>Top Members</h3>
+                <ul>
+                    <li>Ahmed: 50 points</li>
+                    <li>Sayed: 74 points</li>
+                    <li><bdi>علي</bdi>: 20 points</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h3>Whats your Best Browser ??</h3>
+                <input list="browsers" />
+                <form>
+                    <datalist id="browsers">
+                        <option value="opera">
+                        <option value="oto">
+                        <option value="safari">
+                        <option value="sansoma">
+                        <option value="chrom">
+                    </datalist>
+                </form>
+                
+            </section>
+            
+            <section>
+                <h3>Whats my Age By Days ??</h3>
+                <form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' Days'">
+                    <input type="text" name="age">
+                    <input type="hidden" name="days" value="365">
+                    <output name="result"></output>
+                </form>
+            </section>
+            
+            <section>
+                <h3>Audio</h3>
+                <audio controls autoplay muted preload="metadata">
+                    <source src="media/1.mp3" type="audio/mp3">
+                    Your Browser Dont Suppor Audio
+                </audio>
+            </section>
+        </aside>
+        <!-- end sidebar -->
+        
+        <div class="disclear"></div>
+        
+        <!-- start footer -->
+        <footer>
+            Copyright Reserved 2017 &copy; Al-Zaeem
+        </footer>
+        <!-- end footer -->
+        
+        
+    </body>
+</html>

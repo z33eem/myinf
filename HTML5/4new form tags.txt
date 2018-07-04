@@ -1,0 +1,18 @@
+datalist ==> تستخدم لعمل سيليكت بوكس فيه اقتراحات ويمكن الكتابة بداخله
+    <input list="browsers" />
+    <form>
+        <datalist id="browsers">
+            <option value="opera">
+            <option value="oto">
+            <option value="safari">
+            <option value="sansoma">
+            <option value="chrom">
+        </datalist>
+    </form>
+
+output ==> يقوم بعرض العمليات الحسابية
+    <form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' Days'">
+        <input type="text" name="age">
+        <input type="hidden" name="days" value="365">
+        <output name="result"></output>
+    </form>

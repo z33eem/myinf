@@ -1,0 +1,63 @@
+ÇíİíäÊÇÊ ÊÓÊÎÏã Úáì ÇáÚäÇÕÑ ÇáÊí Êã ÇäÔÇÁåÇ ÈÇáÌí ŞæíÑí
+
+bind() ÇáÛíÊ
+                       ÇáÏÇáÉ        ÇáÍÏË
+$("div").bind("click", function(){
+        $(this).text("me");
+})
+
+
+ßÊÇÈÉ ÇßËÑ ãä ÍÏË áÏÇáÉ æÇÍÏÉ
+$("div").bind("mouseenter mouseleave", function(){
+        $(this).toggle();
+})
+
+ßÊÇÈÉ ÇßËÑ ãä ÍÏË áßá ÍÏË ÏÇáÊå ÇáÎÇÕÉ
+$("div").bind({
+        click: function() {$(this).text("You Have Clicked Me")},
+        dblclick: function() {$(this).text("You Have Double Clicked Me")}
+});
+
+ÔÇåÏ ÇäÔÇÁ ÍÏË ÎÇÕ ÈäÇ íÓÊÏÚì İí ÇáÊÑíÌÑ
+$("div").bind("myNewDesign", function(event, color, bg, width, height){
+        $(this).css({
+            color: color,
+            background: bg,
+            width: width,
+            height:height
+        })
+})
+    
+$("div").click(function(){
+        $(this).trigger("myNewDesign", ["red", "yellow", "100px", "100px"])
+})
+************************
+live() ÇáÛíÊ
+$("div").live("click", function(){
+        $(this).css({color: "red",})
+})
+**************************
+diligate() ÇáÛíÊ
+$("body").diligate("div","click", function(){
+        $(this).css({color: "red",})
+}) íÊã ÊäİíĞ ÇáßæÏ ÇáÊÇáí Úáì ÇáÏíİ æåĞÇ åæ İŞØ ÇáÇÎÊáÇİ
+body íãËá ÇáÇÈ ááÚäÕÑ
+
+**ÌãíÚ ÇáÇíİäÊÇÊ ÇáÓÇÈŞÉ ÇáÛíÊ ãä ÈÏÇíÉ ÇáÇÕÏÇÑ 1.7 æíÚæÖ ÚäåÇ Çæä **
+
+***********************************************************
+on() ÊÓÊÎÏã æÊÚæÖ Úä ÇáÈÇŞí
+on(Event, Child Selector, Data, Function, Map)
+
+íãßä ÊÈíÏíá Çæä ÈÏá ÌãíÚ ÇáÇİíäÊÇÊ ÇáÓÇÈŞÉ ÚÏÇ İí ÇáÏáíÌíÊ İíßæä ÇáßæÏ ßÇáÊÇáí
+$("body").on("click", "div", function(){
+        $(this).css({color: "red",})
+})
+æíÊã ÇÓÊÏÚÇÁ ÇáÚäÕÑ ÇáãÊßÑíÊ ÈåĞå ÇáØÑíŞÉ ÇáÈÏíáÉ ááÏáíÌíÊ Ïí ãáÍæÙÉ ãåãÉ ÌÏÇ ÌÏÇ
+
+áÇÍÙ íãßä ÇÓÊÎÏÇã one ÈÏáÇ ãä Çæä 
+áÊäİíĞ ÇáßæÏ ãÑÉ æÇÍÏÉ İŞØ
+
+$("div").one("click", function(){
+        $(this).css({color: "red",})
+})

@@ -1,0 +1,10 @@
+Acronym == Abbr
+Applet == Object
+Basefont == useing Css
+Big == useing Css
+Center == useing Css
+dir == ul or ol
+font == useing Css
+Frameset == !!!
+Strike == useing Css
+tt == useing Css

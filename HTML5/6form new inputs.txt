@@ -1,0 +1,41 @@
+﻿color ==> يستخدم لاختيار لون
+    <input type="color" name="theme" value="#dfdfdf">
+
+range ==> يستخدم لتحديد قيمة من رقم معين لرقم اخر
+    <input type="range" name="range" min="0" max="100" step="10" value="20">
+
+number ==> لادخال الارقام فقط ويمكن تحديدها
+    <input type="number" min="0" max="15" value="10">
+
+email ==> لادخال ايميل فقط
+    <input type="email" name="email">
+
+search ==> لعمل السيرش
+     <input type="search" name="search">
+	لايدعم سفاري
+
+url ==> لادخال رابط
+     <input type="url" name="link">
+	لا يدعم سفاري
+
+tel ==> لادخال رقم هاتف
+     <input type="tel" name="telephone">
+	لايدعم الا سفاري
+
+time ==> لادخال وقت
+     <input type="time" name="timing">
+	لاتدعم فاير وانترنت اكسبلولر
+
+datetime-local ==> لكتابة التاريخ
+     <input type="datetime-local" name="datetime">
+	لاتدعم فاير وانترنت اكسبلولر
+
+date ==> تستخدم لادخال التاريخ
+     <input type="date" name="date">
+	لاتدعم فاير وانترنت اكسبلولر
+
+month ==> تستخدم لجلب الشهر والسنة
+    <input type="month" name="month">
+
+week ==> لجلب الاسيوع والسنة
+    <input type="week" name="week">

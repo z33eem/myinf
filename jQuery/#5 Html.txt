@@ -1,0 +1,87 @@
+Get & Set
+
+text áÌáÈ ÇáäÕ
+html áÌáÈ ÇáåÊãá ÇáãæÌæÏ ÏÇÎá ÇáÚäÕÑ
+val áÌáÈ Şíã ÚäÇÕÑ ÇáÇä ÈÊ
+attr áÌáÈ ÇáÇÊÑÈíæÒ ÇáÎÇÕÉ ÈÇáÚäÕÑ
+
+Ex:- Get
+$("p").text()
+
+Ex:- Set
+$("input").attr('value','HHHH')
+$("input").val($("p").text())
+
+******************************************
+Adding Elements
+
+áæİÑÖäÇ Çä ÇáÏíİ åæ ÇáÚäÕÑ ÇáãÎÊÇÑ
+append áÇÖÇİÉ ÚäÕÑ İí äåÇíÉ ÇáÏíİ
+prepend áÇÖÇİÉ ÚäÕÑ İí ÈÏÇíÉ ÇáÏíİ
+afrer áÇÖÇİÉ ÚäÕÑ ÈÚÏ ÇáÏíİ
+before áÇÖÇİÉ ÚäÕÑ ŞÈá ÇáÏíİ
+appendTo ãËáÇÇáÇÈäÏ áßä ãÚ ÇáÚßÓ
+prependTo ãËá  ÇáÈÑíÈäÏ áßä ãÚ ÇáÚßÓ
+
+<!-- bedore -->
+    <div>
+        <!-- prepend -->
+        Hello !!!
+        <!-- append -->
+    </div>
+<!-- after -->
+
+Ex:-
+$("div").append("<p>Thanks !!</p>");
+or
+$("<p>Thanks !!</p>").appendTo("div")
+
+
+áÇÍÙ íãßä ßÊÇÈÉ ÇáßæÏ ÈÔßá ÇÍÊÑÇİí
+$("<p></p>",{text:"Thanks!!",class:"me"}).appendTo("div")
+
+**********************************************
+Remove && Empty
+remove áÇÒÇáÉ ÚäÕÑ ãä ÇáÕİÍÉ ÊãÇãÇ
+empty áÇİÑÇÛ ãÇÈÏÇÎá ÇÍÏ ÚäÇÕÑ ÇáÕİÍÉ
+
+Ex:-
+$("div").remove();
+$("div").remove(".me");
+*************************************************
+Css
+
+addClass áÇÖÇİÉ ßáÓ
+removeClass áÍĞİ ßáÓ
+toggleClass ááÊÈÏíá Èíä ÇáÇÖÇİÉ æÇáÍĞİ
+
+Ex:-
+$("div").addClass("me");
+
+******************************************************
+Css
+
+Ex:-
+$("div").css("color");
+$("div").css("color","#e00");
+or
+$("div").css({color:"#e00"});
+
+***********************************************
+Dimensions
+width ÇáÚÑÖ ÇáÏÇÎáí ááÚäÕÑ
+innerWidth áÚÑÖ ÇáæíÏË + ÇáÈÇÏíÌ
+outerWidth áÚÑÖ ÇáæíÏË + ÇáÈÇÏíäÌ + ÇáÈæÑÏÑ
+outerWidth(true) áÚÑÖ ÇáæÏíË + ÇáÈÇÏíäÌ + ÇáÈæÑÏÑ + ÇáãÑÌíä
+
+height
+innerHeight
+outerHeight
+outerHeight(true)
+
+
+Ex:-
+$("div").width("+=" + 50);
+$("div").width("+=" + "5%");
+console.log($("div").innerWidth());
+

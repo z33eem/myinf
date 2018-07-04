@@ -1,0 +1,96 @@
+classes
+
+container нЏгб Џбм  —я Ё—«џ«  Ён «бћ«д»нд ж«б ж”нЎ
+container-fulid н«ќ– «б‘«‘… я«гб…
+row нЏЎм ѕ«ќб «бяжд нд— б»ѕЅ «б ё”нг
+*********
+Large Screen         ==> lg
+Medium Screen      ==> md
+Small Screen         ==> sm
+Extra Small Screen ==> xm
+
+нёжг «б»ж ” —«» » ё”нг «б‘«‘… «бм 12 ћ“Ѕ
+
+Exaole:
+
+<div class="container">
+        <div class="row">
+            
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="me">
+                    Product #1
+                </div>
+            </div>
+     </div>
+</div>
+
+************************
+б«Ќў Џдѕг« б«дя » «бяб«” «бќ«’ »‘«‘… гЏнд… Ё«де н«ќ– «Џѕ«ѕ«  «б‘«‘… «б«’џ—где «бг–яж—…
+********************
+hidden && visible
+
+hidden-lg б«ќЁ«Ѕ Џд’— Џбм гё«” ‘«‘… гЏнд…
+
+visible-lg-block б«ўе«— Џд’— Џбм ‘«‘… гЏнд…
+visible-lg-inline
+visible-lg-inline-block
+
+<div class="col-lg-12 visible-lg-block">
+                <div class="warn">
+                    Warning !! ^_^
+                </div>
+</div>
+
+
+
+<div class="col-lg-12 hidden-lg">
+                <div class="warn">
+                    Warning !! ^_^
+                </div>
+</div>
+
+***************
+clearfix
+бЏгб ябн— »Џѕ «бЁбж 
+
+<div class="clearfix"></div>
+
+<div class="clearfix visivle-lg-block"></div>
+бЏгбе Џбм ‘«‘… гЏнд…
+*************************
+col-lg-offset-3
+бЏгб г—ћнд гд «бн”«— гЁѕ«—е 3 жЌѕ«  гЋб«
+***гег
+
+*********************
+col-lg-push-4
+бдёб «бѕнЁ г”«Ё… «—Џ… »Џнѕ« Џд «бће… «бн”—м «н ѕЁЏе нгнд«
+
+col-lg-pull-8
+бдёб «бѕнё  ћ«е «бн”«— 8 жЌѕ«  «н ”Ќ»е
+
+col-md-pull-0
+бЏгб —н”н  «н Џжѕ е бгя«де «бЎ»нЏн «–« я«д гќ бЁ Џбм «б‘«‘… «б’џн—… гЋб«
+
+‘«еѕ «бгЋ«б «б «бн Џя” «б — н»
+
+<div class="col-lg-4 col-lg-push-8">
+                <div class="me">
+                    First #1
+                </div>
+</div>
+            
+<div class="col-lg-8 col-lg-pull-4">
+                <div class="me">
+                    Second #2
+                </div>
+</div>
+*****************************
+img-responsive бћЏб «б’ж—… г ћ«ж»…
+center-block б ж”нЎ «бЏд’—
+lead ќ«’ »«б»—ћ—«Ё б÷»Ўе
+************
+б«д‘«Ѕ дў«г ћ—нѕ ѕ«ќб Џд’— нћ» «д‘«Ѕ ѕнЁ нЌжн «бяб«” —ж ё»бе
+
+‘«еѕ
+

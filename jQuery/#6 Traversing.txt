@@ -1,0 +1,74 @@
+<section>
+        This Is Section
+        <div class="me">
+            This is Div
+            <p>
+                This Is Paragraph
+                <span>This is Span</span>
+            </p>
+        </div>
+</section>
+****************************************************
+parent
+parents
+parentsUntil
+
+Ex:-
+$("span").parent().css("border","1px solid #e00") ÊäİĞ Úáì ÇáÇÈ ÇáÇæá ÇáĞí íÍÊæí Úáì ÇáÚäÕÑ İŞØ
+$("span").parents().css("border","1px solid #e00") ÊäİĞ Úáì ÌãíÚ ÇáÇÈÇÁ İæŞ ÇáÚäÕÑ
+$("span").parents(".me").css("border","1px solid #e00") ÊäİĞ Úáì ÇÈ æÇÍÏ İŞØ ÇáĞí åæ íÍÊæí Úáì ÇáßáÇÓ ãí
+$("span").parentsUntil(".me").css("border","1px solid #e00") íäİĞ Úáì ÇáÇÈÇÁ ÍÊí ÇáÚäÕÑ ÇáĞí íÍÊæí Úáì ÇáßáÇÓ ãí
+**************************************************************
+children
+find
+
+Ex:-
+$("section").children().css("border","1px solid #e00") ÊÓÊÎÏã áÊÍÏíÏ ÇáÇØİÇá ÇáãÈÇÔÑíä ÇáÇæÇÆá ááÚäÕÑ İŞØ
+$("section").find("*").css("border","1px solid #e00") äÓäÎÏã áÌáÈ ÇáÚäÇÕÑ ßÇãáÉ ÊÍÊ ÇáÓíßÔä
+æãä Çáããßä Çä ÊÇÎĞ ÇæÈíÌíßÇÊ Ìí ŞæíÑí ãËÇá
+$("section").find($("div:contains('This')").css("border","1px solid #e00") íÍÊÇÌ áãÑÇÌÚÉ
+**************************************************************
+Style ==>
+     p, div ,aside{background: #ccc;border:1px solid #000;border-radius: 10px;margin: 5px 0;padding: 5px;}
+Code ==>
+    <div>Div 1</div>
+    <div class="test">Div 2</div>
+    <div>Div 3</div>
+    <p>P 1</p>
+    <p>P 2</p>
+    <p>P 3</p>
+    <aside>as 1</aside>
+    <aside>as 2</aside>
+    <aside>as 3</aside>
+******************************************
+siblings áÊÌÏíÏ ÇáÇÎÑíä ÚÏÇ ÇáÚäÕÑ ÇáãÍÏÏ (ÊÍÏíÏ ÇáÇÔŞÇÁ İŞØ
+next ÇáÚäÕÑ ÇáÊÇáí ãÈÇÔÑÉ
+nextAll ÌãíÚ ÇáÚäÇÕÑ ÇáÊÇáíÉ
+nextUntil ÌãíÚ ÇáÚäÇÕÑ ÇáÊÇáíÉ ÍÊí ÇáæÕæá áÚäÕÑ ãÚíä
+prev
+prevAll
+prevUntil
+
+Ex:-
+$("div,p,aside").click(function(){
+       $(this).siblings().css("background","red")
+})
+
+$(this).siblings(".test").css("background","red") áÊÍÏíÏ ÇáÚäÇÕÑ ÇáãÑÇÏ ÇáÊØÈíŞ ÚáíåÇ
+*************************************************
+first ÇáÇæá ÚÇãÉ Úáì ÇáÈíÏÌ ßÇãáÉ
+last ÇáÇÎíÑ 
+eq ÊÇÎĞ ÇáÊÑÊíÈ ãä ÕİÑ æÚäÏ ÇáÚßÓ Êßæä ÇáÈÏÇíÉ ÓÇáÈ æÇÍÏ Ú ÇáÈíÏÌ ßÇãáÉ
+filter ÊŞÈá ÚäÕÑ æÇæÈÌíßÊ æÏÇáÉ áÇÎÊíÇÑ ÚäÕÑ ãÚíä
+not   ÊŞÈá ÚäÕÑ æÇæÈÌíßÊ æÏÇáÉ áÇÎÊíÇÑ ÚäÕÑ ãÚíä æÊäİíĞ ÇáÈÇŞííä ÛíÑå
+
+Ex:-
+$("div").eq("0").css("background","red")
+$("div").filter(".test").css("background","red")
+$("div").not(".test").css("background","red")
+
+
+
+
+
+

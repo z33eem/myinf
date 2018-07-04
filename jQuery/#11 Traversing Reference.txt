@@ -1,0 +1,29 @@
+each ÊÓÊÎÏã áÌáÈ ÌãíÚ ÇáÚäÇÕÑ 
+$("li").each(function(){
+       if ($(this).hasClass("me")) {
+           $(this).css("color","red")
+       }
+})
+********************
+has ÇĞÇ ßÇä ÇáÚäÕÑ íÍÊæí Úáì ÚäÕÑ ÈÏÇÎáå
+$("div").has("span").css("color","red");
+******************
+is ÊÓÊÎÏã ááÊÍŞŞ ãä ÔÆ
+ÊŞÈá İáÇÊÑ æÚäÇÕÑ ÇÎÑì æßáÇÓíÓ
+
+if($("span").parent().is("div")){
+        console.log("Yes It is span in Div");   
+}
+
+if($("span").parent().is(":first")){
+        console.log("Yes It is span in Div");   
+}
+******************
+end áİÕá ÇáÊÔíä Úä ÈÚÖåÇ Çí äŞá ãÇÈÚÏåÇ ßÇäå İí ÇáÈÏÇíÉ
+
+
+<div><span>hello</span>ooooo<b>JQ</b></div>
+
+
+$('div').find('span').css('color','red').end()
+            .find('b').css('color','green')

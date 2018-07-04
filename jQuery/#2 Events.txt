@@ -1,0 +1,25 @@
+click
+dblclick
+mouseenter
+mouseleave
+hover
+
+mousemove
+
+EX1:-
+$(button).click(function(){
+        //code here
+})
+
+Ex2:-
+$(button).click(function(){
+        $(this).hide();
+})
+·«ÕŸ this  ‘Ì— «·Ï «·⁄‰’— «·Õ«·Ì
+
+Ex3:-
+$("button").hover(function(){
+        //code
+    },function(){
+        //code 
+});

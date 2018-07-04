@@ -1,0 +1,19 @@
+.me{
+    background: green;
+    padding: 50px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.warn{
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,191 @@
+    #pass{position: relative;}
+    
+    #fillpass{position: absolute;width: 8%; height:25px; background: #fff;left: 64.5%;top:4px;border-radius: 2px;border:1px solid #000;box-sizing: border-box;cursor: pointer;z-index: 1;}
+    
+    #showpass{position: absolute;width: 2.5%; height:15px; background: #000;left: 65.5%;top:8.5px;border-radius: 50%;border:1px solid orange;box-sizing: border-box;cursor: pointer;z-index: 2;}
+    
+    #hidepass{position: absolute;width: 2.5%; height:15px; background: #fff;left: 69%;top:8.5px;border-radius: 50%;border:1px solid orange;box-sizing: border-box;cursor: pointer;z-index: 2;}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+body{background: #fcf5eb; margin: 0; padding: 0;}
+    #cont{width: 640px;margin: 10 auto; padding: 10;}
+    #form{width: 600px;padding: 20px;border-radius: 20px;border:2px solid #fe4902;}
+    h1{padding: 0; margin: 0; color: #fe4902;text-align: center;text-shadow: 0px 0px 30px yellow;}
+    label{color: #2f8cab;display: block;font-size: 22px;text-align: center;line-height: 40px;}
+    input{display: block; font-size: 18px; padding: 5px;border-radius: 5px;border:1px solid #2f8cab; margin: 0 auto;}
+    input:focus{box-shadow: 5px 5px 10px #ccc}
+    select{display: block; margin: 0 auto; padding: 5px;width: 100px; height: 40px;border-radius: 8px; }
+    #sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #ssselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #selcet{margin: 0 auto; width: 330px}
+    .wr-ri{height: 30px;position: relative; width: 600px;margin: 0 auto;}
+    .wrong{text-align: center; color:red; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 600px;}
+    .right{text-align: center; color:green; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 600px; }
+    #button{position: relative; clear: both;}
+    button{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 120px;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:240px;height: 60px;font-weight: bold;text-align: center;}
+    button:hover{color:#fcf5eb;background:#fe4902;transform:translate3d(0,0,50%)}
+    #btn{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 120px;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:240px;height: 60px;font-weight: bold; text-align: center;opacity: .3;}
+
+    .sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+
+
+    .wr-ri-p{width: 30%;margin: 0 auto;background: #fff;height: 20px; margin-top: 5px;position: relative;}
+    .pass1{background: yellow;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 30%;}
+
+    .pass2{background: orange;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 70%;}
+    
+    .pass3{background: green;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 100%;}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body{background: #fcf5eb; margin: 0; padding: 0;}
+    #cont{width: 640px;margin: 10 auto; padding: 10;}
+    #form{width: 600px;padding: 20px;border-radius: 20px;border:2px solid #fe4902;}
+    h1{padding: 0; margin: 0; color: #fe4902;text-align: center;text-shadow: 0px 0px 30px yellow;}
+    label{color: #2f8cab;display: block;font-size: 22px;text-align: center;line-height: 40px;}
+    input{display: block; font-size: 18px; padding: 5px;border-radius: 5px;border:1px solid #2f8cab; margin: 0 auto;}
+    input:focus{box-shadow: 5px 5px 10px #ccc}
+    select{display: block; margin: 0 auto; padding: 5px;width: 100px; height: 40px;border-radius: 8px; }
+    #sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #ssselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #selcet{margin: 0 auto; width: 330px}
+    .wr-ri{height: 30px;position: relative; width: 600px;margin: 0 auto;}
+    .wrong{text-align: center; color:red; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 600px;}
+    .right{text-align: center; color:green; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 600px; }
+    #button{position: relative; clear: both;}
+    button{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 120px;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:240px;height: 60px;font-weight: bold;text-align: center;}
+    button:hover{color:#fcf5eb;background:#fe4902;transform:translate3d(0,0,50%)}
+    #btn{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 120px;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:240px;height: 60px;font-weight: bold; text-align: center;opacity: .3;}
+
+    .sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+
+    .wr-ri-p{width: 30%;margin: 0 auto;background: #fff;height: 20px; margin-top: 5px;position: relative;}
+    .pass1{background: yellow;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 30%;}
+
+    .pass2{background: orange;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 70%;}
+    
+    .pass3{background: green;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 100%;}
+    
+    
+    
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body{background: #fcf5eb; margin: 0; padding: 0;}
+    #cont{width: 640px;margin: 10 auto; padding: 10;}
+    #form{width: 600px;padding: 20px;border-radius: 20px;border:2px solid #fe4902;}
+    h1{padding: 0; margin: 0; color: #fe4902;text-align: center;text-shadow: 0px 0px 30px yellow;}
+    label{color: #2f8cab;display: block;font-size: 22px;text-align: center;line-height: 40px;}
+    input{display: block; font-size: 18px; padding: 5px;border-radius: 5px;border:1px solid #2f8cab; margin: 0 auto;}
+    input:focus{box-shadow: 5px 5px 10px #ccc}
+    select{display: block; margin: 0 auto; padding: 5px;width: 100px; height: 40px;border-radius: 8px; }
+    #sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #ssselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #selcet{margin: 0 auto; width: 330px}
+    .wr-ri{height: 30px;position: relative; width: 600px;margin: 0 auto;}
+    .wrong{text-align: center; color:red; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 600px;}
+    .right{text-align: center; color:green; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 600px; }
+    #button{position: relative; clear: both; width: 80%;left:10%;background: #fff;}
+    button{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 80%;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:10%;height: 60px;font-weight: bold;text-align: center;}
+    button:hover{color:#fcf5eb;background:#fe4902;transform:translate3d(0,0,50%)}
+    #btn{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 80%;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:10%;height: 60px;font-weight: bold; text-align: center;opacity: .3;}
+
+    .sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+
+
+    .wr-ri-p{width: 30%;margin: 0 auto;background: #fff;height: 20px; margin-top: 5px;position: relative;}
+    .pass1{background: yellow;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 30%;}
+
+    .pass2{background: orange;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 70%;}
+    
+    .pass3{background: green;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 100%;}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) and (min-width: 480px) {
+    body{background: #fcf5eb; margin: 0; padding: 0;}
+    #cont{margin: 10 auto; padding: 10;}
+    #form{padding: 20px;border-radius: 20px;border:2px solid #fe4902;}
+    h1{padding: 0; margin: 0; color: #fe4902;text-align: center;text-shadow: 0px 0px 30px yellow;}
+    label{color: #2f8cab;display: block;font-size: 22px;text-align: center;line-height: 40px;}
+    input{display: block; font-size: 18px; padding: 5px;border-radius: 5px;border:1px solid #2f8cab; margin: 0 auto;}
+    input:focus{box-shadow: 5px 5px 10px #ccc}
+    select{display: block; margin: 0 auto; padding: 5px;width: 100px; height: 40px;border-radius: 8px; }
+    #sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #ssselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+    #selcet{margin: 0 auto; width: 330px}
+    .wr-ri{height: 30px;position: relative; width: 100%;margin: 0 auto;}
+    .wrong{text-align: center; color:red; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 100%}
+    .right{text-align: center; color:green; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width:100%; }
+    #button{position: relative; clear: both; width: 80%;left: 10%;background: #fff;}
+    button{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 80%;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:10%;height: 60px;font-weight: bold;text-align: center;}
+    button:hover{color:#fcf5eb;background:#fe4902;transform:translate3d(0,0,50%)}
+    #btn{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 80%;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:10%;height: 60px;font-weight: bold; text-align: center;opacity: .3;}
+
+    .sselect{display: inline; width: 100px; height: 40px; border-radius: 8px;}
+
+
+    .wr-ri-p{width: 30%;margin: 0 auto;background: #fff;height: 20px; margin-top: 5px;position: relative;}
+    .pass1{background: yellow;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 30%;}
+
+    .pass2{background: orange;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 70%;}
+    
+    .pass3{background: green;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 100%;}
+    
+    
+            #pass{position: relative;}
+    
+    #fillpass{position: absolute;width: 12%; height:25px; background: #fff;left: 65%;top:4px;border-radius: 2px;border:1px solid #000;box-sizing: border-box;cursor: pointer;z-index: 1;}
+    
+    #showpass{position: absolute;width: 4%; height:15px; background: #000;left: 66%;top:8.5px;border-radius: 50%;border:1px solid orange;box-sizing: border-box;cursor: pointer;z-index: 2;}
+    
+    #hidepass{position: absolute;width: 4%; height:15px; background: #fff;left: 72%;top:8.5px;border-radius: 50%;border:1px solid orange;box-sizing: border-box;cursor: pointer;z-index: 2;}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+      body{background: #fcf5eb; margin: 0; padding: 0;width: 100%;}
+    #cont{margin: 10 auto; padding: 10;}
+    #form{padding: 20px;border-radius: 20px;border:2px solid #fe4902;}
+    h1{padding: 0; margin: 0; color: #fe4902;text-align: center;text-shadow: 0px 0px 30px yellow;}
+    label{color: #2f8cab;display: block;font-size: 22px;text-align: center;line-height: 40px;}
+    input{display: block; font-size: 18px; padding: 5px;border-radius: 5px;border:1px solid #2f8cab; margin: 0 auto;width: 80%;}
+    input:focus{box-shadow: 5px 5px 10px #ccc}
+    select{display: block; margin: 0 auto; padding: 5px;width: 100px; height: 40px;border-radius: 8px; }
+    #sselect{display: block; width: 40%; height: 40px; border-radius: 8px;left: 30%;}
+    #ssselect{display: block; width: 40%; height: 40px; border-radius: 8px;left: 30%;}
+
+    .wr-ri{height: 50px;position: relative; width: 100%;margin: 0 auto;}
+    .wrong{text-align: center; color:red; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width: 100%}
+    .right{text-align: center; color:green; font-size: 18px;height: 30px; line-height: 30px;position: absolute;margin: 0 auto;width:100%; }
+    #button{position: relative; clear: both; width: 80%;left: 10%;background: #fff;}
+    button{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 80%;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:10%;height: 60px;font-weight: bold;text-align: center;}
+    button:hover{color:#fcf5eb;background:#fe4902;transform:translate3d(0,0,50%)}
+    #btn{background:#fcf5eb; display: block;margin: 20px auto; padding: 15px;width: 80%;color:#fe4902;font-size: 20px; border:0;border-radius: 15px; transition: 1s ease-in-out; cursor: pointer;border: 2px solid #fe4902; position: absolute; top:15px;box-sizing: border-box;left:10%;height: 60px;font-weight: bold; text-align: center;opacity: .3;}
+    
+    
+    
+    .sselect{display: block; width: 40%; height: 40px; border-radius: 8px;left: 30%;}
+
+
+    .wr-ri-p{width: 30%;margin: 0 auto;background: #fff;height: 20px; margin-top: 5px;position: relative;}
+    .pass1{background: yellow;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 30%;}
+
+    .pass2{background: orange;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 70%;}
+    
+    .pass3{background: green;height: 20px; position: absolute;margin: 0 auto;transition: 2s ease-in-out;width: 100%;}
+    
+        #pass{position: relative;}
+    
+    #fillpass{position: absolute;width: 20%; height:25px; background: #fff;left: 78%;top:4px;border-radius: 2px;border:1px solid #000;box-sizing: border-box;cursor: pointer;z-index: 1;}
+    
+    #showpass{position: absolute;width: 6%; height:15px; background: #000;left: 81%;top:8.5px;border-radius: 50%;border:1px solid orange;box-sizing: border-box;cursor: pointer;z-index: 2;}
+    
+    #hidepass{position: absolute;width: 6%; height:15px; background: #fff;left: 89%;top:8.5px;border-radius: 50%;border:1px solid orange;box-sizing: border-box;cursor: pointer;z-index: 2;}
+}

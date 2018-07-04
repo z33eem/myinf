@@ -1,0 +1,37 @@
+if (myAge < 13) {
+    
+    document.getElementById("ahmed").innerHTML = "Hi Your Age Is " + myAge + " so, You are not allowed to be hear.";
+    
+} else {
+    
+    document.getElementById("ahmed").innerHTML = "Hi Your Age Is " + myAge + " so, You must be hear.";
+    
+}
+
+ÇáÞíã ÇáÊÇáíÉ ÌãíÚåÇ false
+ÇáÞíãÉ ÇáãäØÞíÉ false
+ÇáäæÚ null
+ÇáäæÚ undefined
+ÇáÑÞã 0
+ÇáÓáÓáÉ ÇáÝÇÑÛÉ ""
+ÇáÞíãÉ ÇáÝÑÏíÉ NaN
+
+
+ÚÇãá ÇáÊÔÛíá ÇáËáÇËí åæ ÇÎÊÕÇÑ áÚÈÇÑÇÊ if 
+var isGoing = true;
+var color;
+
+if (isGoing) {
+  color = "green";
+} else {
+  color = "red";
+}
+
+console.log(color);
+íÎÊÕÑ Çáì
+var isGoing = true;
+var color = isGoing ? "green" : "red";
+console.log(color);
+
+ÇáÕíÛÉ ÇáÚÇãÉ
+conditional ? (if condition is true) : (if condition is false)

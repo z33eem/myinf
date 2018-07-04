@@ -1,0 +1,8 @@
+boolean
+string
+undefined
+array
+object
+number
+nan
+null

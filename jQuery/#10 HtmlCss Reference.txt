@@ -1,0 +1,131 @@
+clone áÇÓÊäÓÇÎ ÚäÕÑ
+ÊÇÎĞ ŞíãÊíä ÊÑæ æİáÓ
+İáÓ åí ÇáÇİÊÑÇÖíÉ æÊÚäí äÓÎ ÇáÚäÕÑ æÚÏã ÊäİíĞ ÇİäÊÇÊ Úáíå
+ÊÑæ ÊäÓÎ ÇáÚäÕÑ æÊŞÈá ÊäİíĞ ÇáÇíİäÊÇÊ Úáíå
+
+$("button").click(function(){
+        $("div").clone(true).appendTo("body");
+})
+*************************
+detach áÍĞİ ÇáÚäÕÑ ãÚ ÈŞÇÁ ÇíİíäÊÇÊå æíãßä Çä ÊäİĞ Úáíå áÇÍŞÇ
+
+$("button").click(function(){
+        $("div").detach();
+})
+
+áÇÍÙ íÄÏí äİÓ æÙíİÉ ÇáÑíãæİ ÏÑÓ5 æáßä ãÚ ÇáÑíãæİ ÊÍĞŞ ÇáÇíİäÊÇÊ İáÇ íãßä ÊäİíĞåÇ ÈÚÏ ÇÖÇİÉ ÇáÚäÕÑ ãÑÉ ÇÎÑì ãËáÇ 
+ÔÇåÏ ÇáãËÇá
+áãáÇÍÙÉ ÇáİÑŞ ÇÈÏá Ïí ÊÇÊÔ ÈÑíãæİ
+    <button class="add">ADD</button>
+    <button class="remove">Remove</button>
+    <div>hello !!</div>
+    
+    <script>
+        $(function(){
+            
+            var dd = $("div");
+            $(".remove").on("click", function(){
+                dd.detach();
+            })
+            
+            $(".add").on("click", function(){
+                dd.appendTo("body");
+            })
+            
+            dd.on("click", function(){
+                $(this).css("color", "red")
+            })
+            
+
+        });
+    </script>
+*********************************************
+hasClass ãåãÉ ÌÏÇ áãÚÑİÉ ÇĞÇ ßÇä ÇáÚäÕÑ íÍÊæí Úáì ßáÇÓ ãÚíä Çæ áÇ
+
+$("li").each(function(){
+        
+        if($(this).hasClass("me")) {
+            $(this).css("color","red");
+        }
+           
+})
+ÇÓÊÎÏãäÇ ÇíÊÔ áİÍÕ ÌãíÚ Çááí İí ÇáÕİÍÉ 
+******************************************
+offset ÊÓÊÎÏã áÊÍÏíÏ ãßÇä ÇáÚäÕÑ ÊæÈ æáíİÊ ãä ÇáæíäÏæ Çæ ÇáÕİÍÉ ßÇãáÉ
+console.log($("div").offset());
+áÇÍÙ áÚÑÖ ÇáÈÚÏ ÇáİŞí Çæ ÇáÑÇÓí İŞØ äÓÊÎÏã
+
+console.log($("div").offset().top);
+
+console.log($("div").offset().left);
+
+íãßä ÇáÏãÌ Èíä ÇáÇÓßáæÑ æÇáÇæİÓíÊ ÈÇáãËÇá ÇáÊÇáí
+
+    $(window).scroll(function(){
+        
+        var sctop = $(window).scrollTop(),
+            div_offset = $("div").offset().top;
+        console.log(sctop + " " + div_offset)
+        
+        if (sctop >= div_offset) {
+            $("div").css("background", "#080")
+        }
+    })
+
+áÊÛííÑ ÇáÇæİ ÓíÊ
+
+$("div").offset({
+	top; "100px",
+	left:"200px"
+});
+
+****************************************
+
+position ÊÇÊí ÈãßÇä ÇáÚäÕÑ ãä ÇáÚäÕÑ ÇáÇÈ ãÈÇÔÑÉ Çí ÈÇáÑíáÇÊíİ æÇáÇÈ ÓáæÊ ãËá ÇáÇæİÓíÊ
+
+************************
+prop áÌáÈ ÇáŞíãÉ ÇáÎÇÕÉ ÈÇáÇÊÑÈíæÊ ãËá ÇÊÊÑ
+
+<input type="text" disabled>
+<button>Click</button>
+
+$("button").click(function(){
+        console.log($("input").prop("disabled"));
+}) ÊØÈÚ ÊÑæ
+
+áÚãá ÓíÊ
+$("button").click(function(){
+        $("input").prop({
+            disabled: false,
+            name: "me"
+        })
+})
+
+*************************************
+replacewith áÊÛíÑ ÚäÕÑ ÈÔÆ ãÇ
+
+$("div").click(function(){
+        $(this).replaceWith("<input type='text' />")
+})
+
+********************************
+scrollTop áÍÓÇÈ ÇáãÓÇÍÉ İæŞ ÇáÇÓßÑæá
+scrollLeft áÍÓÇÈ ÇáãÓÇÍÉ íÓÇÑ ÇáÇÓßáæÑ 
+ÔÇåÏ ÇãËáÉ ÇáÌíË ÈÇáÇÚáì
+
+ãËÇá Úáì ÇáÓíÊ
+$(window).scrollTop(700);
+********************************
+wrap áÚãá ÈÇÑÈäÊ áÚäÕÑ ãÇ
+unwrap áÇÒÇáÉ ÇáÈÇÑäÊ ÇáÎÇÕ ÈÇáÚäÕÑ
+áÇÊŞÈá ÇáÇ ÚäÇÕÑ ãä åÊãá
+
+$("#wrap").click(function(){
+       $("span").wrap("<div></div>")
+})
+    
+    $("#unwrap").click(function(){
+       $("span").unwrap()
+})
+*********************************
+

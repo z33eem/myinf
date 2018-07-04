@@ -1,0 +1,138 @@
+For loop
+
+for ( start; stop; step ) {
+  // do this thing
+}
+
+ _____
+
+/*jslint plusplus:true */
+var i;
+for (i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+Çæ
+
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+ÊÓÊÎÏã áÚãá áæÈ ÏÇÎá ÇáãÕİæİÇÊ
+
+ÇáÌíÓ áíäÊ áÊÔÛíá ÇáÈáÓ ÈáÓ
+
+ÇáßæÏ ÈØÑíŞÉ ÇÎÑì ÇÍÊÑÇİíÉ
+/*jslint plusplus:true */
+var i = 0;
+for (;;) {
+    if (i > 10) break;
+    console.log(i);
+    i++;
+}
+___________
+
+For In
+ÊÓÊÎÏã áÚãá áæææÈ ÏÇÎá ÇáÇæÈÌíßÊ
+
+ÓäŞæã ÈÏÑÇÓÊåÇ İíãÇ ÈÚÏ 45
+_______
+
+while
+
+
+/*jslint plusplus:true */
+var i = 0;
+while (i < 10) {
+    console.log(i);
+    i++;
+}
+
+
+___________
+
+do while
+
+/*jslint plusplus:true */
+var i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 10);
+_________
+
+áÅÖÇİÉ áÇÈá ááÊßÑÇÑ
+var i;
+mainloop:
+for (i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+mainloop: ÇááÈíá ÇáÎÇÕ ÈÇáÊßÑÇÑ
+
+
+áÚãá ÈÑíß ááÊßÑÇÑ
+
+var i;
+for (i = 0; i < 10; i++) {
+    if (i === 5) {
+        break;
+    }
+    console.log(i);
+}
+
+ÚäÏ ÍÏæË ÇáÔÑØ Çí ÊÓÇæí ÎãÓÉ íŞæã ÈÊæŞíİ ÇáÊßÑÇÑ
+
+áÚãá ßæäÊíäíæ ááÊßÑÇÑ
+var i;
+for (i = 0; i < 10; i++) {
+    
+    if (i === 5) {
+        continue;
+    }
+    console.log(i);
+}
+continue:íÚäí áÇ Êßãá ÈÇŞí ÇáÏÇáÉ æÇßãá ÇáÊßÑÇÑ ãä ÇáÈÏÇíÉ 
+
+ßæÏ ãåã ãÊŞÏã
+
+var i, x;
+mainloop:
+for (i = 0; i < 10; i++) {
+    
+    childloop:
+    for (x = 15; x < 20; x++){
+        
+        if (x === 18) {
+            break mainloop;
+        }
+        
+        console.log(i + "----" + x);
+        
+    }
+    
+}
+
+ÇáÒíÇÏÉ æÇáäŞÕÇä æÇáÖÑÈ æÇáŞÓãÉ
+
+x++ or ++x // same as x = x + 1 
+x-- or --x // same as x = x - 1
+x += 3 // same as x = x + 3
+x -= 6 // same as x = x - 6
+x *= 2 // same as x = x * 2
+x /= 5 // same as x = x / 5
+
+
+ÇáÊßÑÇÑ ÏÇÎ ÇáÇæÈÌíßÊ
+
+var student = {
+    id : 12345,
+    name : "Mohammed",
+    registered : true
+}; 
+
+for( var key in student ){
+
+    console.log( student[key]);
+
+}

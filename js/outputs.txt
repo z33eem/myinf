@@ -1,0 +1,11 @@
+/*global console, alert, prompt*/
+
+alert("");
+
+document.write("");
+
+document.getElementById("ahmed").innerHTML = "";
+
+console.log("");
+
+prompt(""); гоги гонгА

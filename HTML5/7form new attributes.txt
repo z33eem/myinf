@@ -1,0 +1,61 @@
+disabled ==> «бЌёб гЏЎб жб« н—”б гЏ «бћн  гЋб«
+required ==> «бЌёб гЎбж»
+     <input type="text" disabled>
+     <input type="text" required>
+
+autocomplete="off" ==> бћЏб «бг ’ЁЌ б«нёжг »«ўе«— «бёнг «бгя ж»… ё»б –«я
+     <input type="text" name="username" autocomplete="off">
+
+autofocus="on" ==> бЏгб Ёжя” Џбм Ќёб гЏнд Џдѕ Ё Ќ «б’ЁЌ…
+     <input type="email" name="email" autofocus="on">
+
+<form novalidate> ==> бћЏб «бг ’ЁЌ б«нЁЏб «б‘нЅ «б«Ё —«÷н гЋб« Џдѕ я «»… «бгнб б«нЎб» жћжѕ @ жея–«
+
+*******************
+
+action ==> бя «»… «б’ЁЌ… «б н ” ”—б «бне« «б»н«д« 
+     <form action="me.php">
+
+formaction ==> бя «»… «б’ЁЌ… «б н ” —”б «бне« «б»н«д«  бяд Ём “—«— «б”н гн  ж«б«нгћ
+     <input formaction="ana.php" value="other send">
+
+method ==>  ” ќѕг б Ќѕнѕ Ќ«б… «б«—”«б ћн  «ж »ж” 
+     <form method="post">
+
+formmethod ==>  ” ќѕг б Ќѕнѕ Ќ«б… «б«—”«б бяд Ён “— «б”» гн  ж«б«нгћ
+     <input type="submit" formmethod="get" value="other send">
+
+enctype ==> б ‘Ён— «б»н«д« 
+***********************
+form ==>  я » ѕ«ќб «б«д»ж  бћЏбе ÷гд Ёж—г »Џнѕ Џде жн—”б «б»н«д«  гЏе
+     <form id="main-form">
+     <input type="text" name="nickname" form="main-form">
+
+formnovalidate ==> бЏгб «—”«б ббЁж—г ѕжд «б Ќёё гд Ќёжб «бгнб ж«бдг»—ж«бнж—б  я » ѕ«ќб «б”» гн  ж«б«нгћ
+     <input type="submit" value="Send Without validat" formnovalidate>
+
+formtarget ==> б«ќ н«— Ў—нё… «—”«б «бЁж—г »Ё Ќ —«»Ў ћѕнѕ «ж б« «бќ яг« Ён «ббндя
+     <input type="submit" value="Send Without validat" formtarget="_blank">
+********************
+placeholder ==> бж÷Џ д’ нќ Ён Џдѕ Џгб џжя” ѕ«ќб «б я” 
+     <input type="text" name="username" placeholder="Type Your Name">
+
+multiple ==>  ” ќѕг б« «Ќ… «ѕќ« «яЋ— гд »н«д«  ж ” ќѕг гЏ «бгнб ж«бЁ«нб
+     <input type="file" multiple name="file">
+
+required ==> бгдЏ «—”«б «бЁж—г «б«Џдѕ гб√ е–« «бЌёб
+     <input type="text" name="nickname" required>
+**************************
+min ==> б Ќѕннѕ «бЌѕ «б«ѕдм гд «бёнг
+max ==> б Ќѕнѕ «бЌѕ «б«ё’м гд «бёнг
+step ==> б Ќѕнѕ гЏѕб «б дёб »нд «бёнг
+     <input type="number" min="0" max="100" step="10" name="num">
+pattern ==> н” ќѕг гЏ «б—нћжб— «я”н»—‘нд б Ќѕнѕ «бёнг «бгѕќб…  ]џн— я«гб
+******************************
+readonly ==>  бЏѕг ћЏб «бд’ ё«»б бб Ќ—н— «ж «бЌ–Ё 
+н” ќѕг гЋб« гЏ д”ќ «ббндя
+     <input type="text" value="HH" readonly>
+
+
+
+

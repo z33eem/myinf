@@ -1,0 +1,34 @@
+„·ÕÊŸ… : 
+global :  ⁄‰Ì ⁄·Ï „” ÊÌ «·’›Õ… ﬂ«„·… Ì„ﬂ‰ «” œ⁄«∆Â ›Ì«Ì „ﬂ«‰
+local :  ⁄‰Ì Ì„ﬂ‰ √” Œœ«„Â ›Ì „ﬂ«‰Â ›ﬁÿ ”Ê«¡ ﬂ«‰ œ«·… √Ê ‘Ì¡ √Œ—
+
+local Ê ”„Ï «Ì÷« function
+
+var = local
+no var = global
+
+
+
+......
+
+
+/*global console, alert, prompt*/
+
+
+var x = 1; //global scope
+
+function xto2() {
+    "use strict";
+    x = 2; //global scope
+}
+
+function xto3() {
+    "use strict";
+    var x = 3; //local scope
+}
+
+console.log(x);
+xto2();
+console.log(x);
+xto3();
+console.log(x);

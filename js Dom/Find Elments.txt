@@ -1,0 +1,16 @@
+áÊÍÏíÏ ÇáÚäÇÕÑ æÌáÈåÇ
+document.getElementById();
+document.getElementsByTagName();áÌáÈ ÇáÚäÕÑ Úä ØÑíŞ ÇáÊÇÌ ãËá Ïíİ Çæ Èí
+document.getElementsByClassName();
+document.querySelector(); áÌáÈ Çæá ÚäÕÑ İŞØ
+document.querySelectorAll(); íãßä ßÊÇÈÉ ãÇåæ ÈÇÇáÏÇÎá
+document.querySelectorAll(p.test);áÌáÈ ÇáÚäÕÑ ÈÇáßáÇÓ
+______
+
+Find Element by object collection áÇ íÌÇÏ ÇáÚäÇÕÑ ÈØÑíŞÉ ÇİÖá
+document.title  áÌáÈ ÇáÊÇíÊá ÇáÎÇÕ ÈÇáÕİÍÉ
+document.images áÌáÈ ÌãíÚ ÇáÕæÑ ÇáãæÌæÏÉ İí ÇáÕİÍÉ
+document.forms áÌáÈ ÌãíÚ ÇáİæÑãÒ ÇáãæÌæÏÉ İí ÇáÕİÍÉ
+document.body áÌáÈ ÇáÈæÏí ßÇãáÇ
+document.anchors áÌáÈ ÇáÇíÉ ÇáÎÇÕ ÈÇááíäßÇÊ æÇáĞí áÇ íÍÊæí Úáì ÇíÊÔ Ñíİ
+document.links áÌáÈ ÌãíÚ ÇááíäßÇÊ ÇáÊí ÊÍÊæí Úáì ÇíÊÔ åÑíİ İŞØ

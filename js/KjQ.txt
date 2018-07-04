@@ -1,0 +1,130 @@
+ÎÕÇÆÕ ÚÇãÉ:
+element.nodeName
+ÊõÑÌÚ äæÚ ÇáÚäÕÑ (ãËáÇ P Ãæ LI Ãæ DIV)
+.
+element.attributes
+ÊõÑÌÚ ãÕİæİÉ ÊÍãá ÓãÇÊ ÇáÚäÕÑ
+
+ÓãÇÊ ãÍÏÏÉ:
+element.getAttribute("attribute")
+ÊõÑÌÚ ÇáÓãÉ ÇáãÍÏÏÉ ááÚäÕÑ. ãËáÇ element.getAttribute("href")
+.
+element.setAttribute("attribute", "new value")
+ÊÍÏÏ ŞíãÉ ÌÏíÏÉ ááÓãÉ ÇáãÍÏÏÉ
+.
+element.hasAttribute("attribute")
+ÊõÑÌÚ ŞíãÉ ãäØŞíÉ true Ãæ false Úä æÌæÏ ÇáÓãÉ İí ÇáÚäÕÑ
+.
+element.removeAttribute("attribute")
+ÅÒÇáÉ ÓãÉ ãÍÏÏÉ ãä ÇáÚäÕÑ
+.
+element.attribtues
+ÊõÑÌÚ ãÕİæİÉ ÈÌãíÚ ÇáÓãÇÊ ÇáÎÇÕÉ ÈÇáÚäÕÑ
+.
+element.attributes["attribute"]
+ÊõÑÌÚ ŞíãÉ ÇáÓãÉ ÇáãÍÏÏÉ æíãßä ÇÓÊÎÏÇãåÇ áÊÚÏíá åĞå ÇáŞíãÉ
+.
+element.attributes.attribute
+äİÓ ãåãÉ ÇáØÑíŞÉ ÇáÓÇÈŞÉ æáßä ÈÇÓÊÎÏÇã ÇáäŞÇØ . ãËáÇ element.attributes.src
+
+ãÍÊæì ÇáÚäÕÑ:
+element.innerHTML
+ÊõÑÌÚ ßæÏ HTML ÏÇÎá ÇáÚäÕÑ ßãÇ åæ æíãßä ÇÓÊÎÏãåÇ áÊÚÏíá åĞÇ ÇáãÍÊæì
+.
+element.outerHTML
+ÊõÑÌÚ ßæÏ HTML ÇáÓÇÈŞ äİÓå ãÊÖãäÇ ÚáÇãÉ tag ÇáÚäÕÑ äİÓå æíãßä ÇÓÊÎÏãåÇ áÊÚÏíá åĞÇ ÇáãÍÊæì
+
+ÇáÚäÇÕÑ ĞÇÊ ÇáÚáÇŞÉ:
+element.parentNode
+ÊõÑÌÚ ÇáÚäÕÑ ÇáÃÈ
+.
+element.children
+ÊõÑÌÚ ãÕİæİÉ ÇáÚäÇÕÑ ÇáÃÈäÇÁ İŞØ
+.
+element.childNodes
+ÊõÑÌÚ ãÕİæİÉ ÇáÚäÇÕÑ ÇáÃÈäÇÁ ãÊÖãäÉ ÚäÇÕÑ ÇáäÕæÕ text (Ãí ÇáÊí áíÓ áåÇ ÚáÇãÉ tag)
+.
+element.previousSibling
+ÊõÑÌÚ ÇáÚäÕÑ ÇáÓÇÈŞ ÏÇÎá ÇáÃÈ äİÓå
+.
+element.nextSibling
+ÊõÑÌÚ ÇáÚäÕÑ ÇáÊÇáí ÏÇÎá ÇáÃÈ äİÓå
+.
+element.firstChild
+ÊõÑÌÚ ÇáÚäÕÑ ÇáÇÈä ÇáÃæá ÏÇÎá ÇáÚäÕÑ
+.
+element.lastChild
+ÊõÑÌÚ ÇáÚäÕÑ ÇáÇÈä ÇáÃÎíÑ ÏÇÎá ÇáÚäÕÑ
+
+ÃäãÇØ ÇáÚäÕÑ:
+element.className
+ÊõÑÌÚ ÇáİÆÇÊ ÇáÎÇÕÉ ÈÇáÚäÕÑ æíãßä ÇÓÊÎÏÇãåÇ áÅÖÇİÉ Ãæ ÅÒÇáÉ İÆÉ ãæÌæÏÉ
+.
+element.classList
+ÊõÑÌÚ ãÕİæİÉ ÇáİÆÇÊ ÇáÎÇÕÉ ÈÇáÚäÕÑ æíãßä ÇÓÊÎÏÇãåÇ ãä ÃÌá:
+
+ÅÖÇİÉ İÆÉ ÌÏíÏÉ element.classList.add("class")
+ÅÒÇáÉ İÆÉ ãæÌæÏÉ element.classList.remove("class")
+ÊİÚíá Ãæ ÊÚØíá İÆÉ ãÚíäÉ element.classList.toggle("class")
+ãÚÑİÉ ÅĞÇ ßÇä ÇáÚäÕÑ ãä İÆÉ ãÍÏÏÉ element.classList.contains("class")
+ßãÇ íãßä ÇÓÊÎÏÇã element.style.styleName
+ãËáÇ element.style.color Ãæ element.style.width ááæÕæá Åáì ÓãÉ ãÍÏÏÉ ááÚäÕÑ æÊÚÏíáåÇ
+
+:large_orange_diamond: ßãÇ íãßääÇ Ãä äŞæã ÈÊÚÏíá ãßæäÇÊ äãæĞÌ ßÇÆä ÇáãÓÊäÏ æÅÖÇİÉ ÚäÇÕÑ ÌÏíÏÉ Ãæ ÅÒÇáÉ ÚäÇÕÑ ãÍÏÏÉ:
+
+var parentElement = document.querySelector("ul");
+
+/* ÊÔßíá ÚäÇÕÑ ÌÏíÏÉ */
+var childElement = document.createElement("li");
+var childElementTwo = document.createElement("li");
+
+/* ÅÖÇİÉ ÚäÕÑ ÌÏíÏ ßÇÈä ÃÎíÑ */
+parentElement.appendChild(childElement);
+
+/* ÅÖÇİÉ ÚäÕÑ ÌÏíÏ ŞÈá ÚäÕÑ ãÍÏÏ ÏÇÎá ÇáÚäÕÑÇáÃÈ */
+parentElement.insertBefore(childElementTwo, childElement);
+
+/* ÅÖÇİÉ ÚäÕÑ ÌÏíÏ ŞÈá Ãæá ÚäÕÑ İí ÏÇÎá ÇáÚäÕÑ ÇáÃÈ */
+parentElement.insertBefore(childElementTwo, parentElement.firstChild);
+
+/* ÇÓÊÈÏÇá ÚäÕÑ ÌÏíÏ ÈÚäÕÑ ãÍÏÏ ÏÇÎá ÇáÚäÕÑ ÇáÃÈ */
+parentElement.replaceChild(childElementTwo, childElement);
+
+/* ÅÒÇáÉ ÚäÕÑ ãÍÏÏ */
+parentElement.removeChild(childElement);
+
+/*  ÊÔßíá äÓÎÉ ãä ÚäÕÑ ãÊÖãäÇ ÌãíÚ ÚäÇÕÑå ÇáÃÈäÇÁ */
+var cloneElement = parentElement.cloneNode(true);
+
+ßãÇ íãßä ÅÏÑÇÌ ÇáÚäÇÕÑ ÇáÌÏíÏÉ ÈÇÓÊÎÏÇã ØÑíŞÉ ÃÎÑì:
+
+var element = document.querySelector("div");
+
+/* ÅÏÑÇÌ ßæÏ İí ãæŞÚ ãÍÏÏ ÏÇÎá ÚäÕÑ */
+element.insertAdjacentHTML("afterbegin", "<p>new paragraph</p>")
+
+/* ÎíÇÑÇÊ ÇáãæŞÚ åí ßÇáÊÇáí */
+// afterend ÈÚÏ ÇáÚäÕÑ
+// beforebegin ŞÈá ÇáÚäÕÑ
+// afterbegin ÈÚÏ ÈÏÇíÉ ÚáÇãÉ ÇáÚäÕÑ ßÇÈä Ãæá
+// beforeend ŞÈá äåÇíÉ ÚáÇãÉ ÇáÚäÕÑ ßÇÈä ÃÎíÑ
+
+/* ÊÔßíá ÚäÕÑ äÕ ÌÏíÏ */
+var text = document.createTextNode("Some text to add");
+
+/* ÅÖÇİÉ ÚäÕÑ äÕ ÌÏíÏ */
+newElement.appendChild(text);
+
+:large_orange_diamond: ßãÇ íÊíÍ ÇÓÊØáÇÚ ßÇÆä ÇáãÓÊäÏ ÅãßÇäíÉ ÇáÊİÇÚá ãÚ ÇáÃÍÏÇË Events ÇáãÑÊÈØÉ ÈÇáÚäÇÕÑ ÇáãßæäÉ áå¡ İÚáì ÓÈíá ÇáãËÇá:
+
+var element = document.querySelector("article");
+	
+element.onclick = function() {
+   /* ãÇĞÇ ÓíÍÕá ÚäÏãÇ íÊã ÇáÖÛØ Úáì åĞÇ ÇáÚäÕÑ ÈÇáãÇæÓ */
+}
+
+var input = document.querySelectorAll("input")[0];
+
+input.onfocus = function() {
+   /*  ãÇĞÇ ÓíÍÕá ÚäÏãÇ íÕÈÍ ÍŞá ÇáÅÏÎÇá ãİÚáÇ */
+}

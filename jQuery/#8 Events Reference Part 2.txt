@@ -1,0 +1,121 @@
+PreventDefault()
+ ” Œœ„ ·„‰⁄ ÕœÊÀ «·‘Ì¡ «·„› —÷ ÕœÊÀÂ ÕÌÀ ⁄‰œ «·÷€ÿ ⁄·Ï «··Ì‰ﬂ ·«»œ «‰ Ì‰ ﬁ· «·Ï «·⁄‰Ê«‰ «·„Õœœ «·Ï «‰ Â–Â «·œ«·…  „‰⁄ –·ﬂ
+$("a").on("click", function(event){
+        event.preventDefault();
+        $("img").fadeIn(500);
+})
+
+·«ÕŸ «” Œœ«„ «·œ«·… «· «·Ì… · Õﬁﬁ „« «–« ﬂ«‰  «Õœ«À «·⁄‰’— «·«› —«÷Ì… „„‰Ê⁄… «„ ·«
+
+$("a").on("click", function(event){
+        event.preventDefault();
+        $("img").fadeIn(500);
+        if(event.isDefaultPrevented()) {
+            $("div").text("Prevented");
+        }
+})
+***********************************
+keydown
+keypress
+keyup «·«›÷· Ê«·«”—⁄
+
+$("input").on("keyup", function(){
+        $("div h4").text( $(this).val() );
+})
+
+*******************************************
+change   ” Œœ„ „⁄⁄‰«’— «·›Ê—„ Ê«·”Ì·Ìﬂ 
+ ” Œœ„ ⁄‰œ  €ÌÌ— «·›Êﬂ” «Ì «·÷€ÿ »⁄Ìœ« ⁄‰ «·⁄‰’—
+
+$("input").on("change", function(){
+        $("div h4").text( $(this).val() );
+})
+******************************************
+focus ⁄‰œ «· —ﬂÌ“ ⁄·Ï ⁄‰’— „«
+blur ⁄‰œ «“«·… «·›Êﬂ” «Ì «·÷€ÿ ⁄·Ï ⁄‰’— «Œ— ›Ì «·»ÌœÃ
+
+$("input").focus() ·⁄„· ›Êﬂ”  ·ﬁ«∆Ì ⁄·Ï «·⁄‰’—
+
+$("input").on("focus", function(){
+        $("div").text( "You Have Focused The Input" );
+})
+    
+$("input").on("blur", function(){
+        $("div").text( "You Have UnFocused The Input" );
+})
+**************************************
+one «Ì›Ì‰  »œÌ· · «Ê‰ · ‰›Ì– «·ﬂÊœ „—… Ê«Õœ… ›ﬁÿ
+
+$("input").one("focus", function(){
+        $("div").text( "You Have Focused The Input" );
+})
+****************************************
+select «Ì›Ì‰  ·⁄„·  ÕœÌœ ⁄·Ï «·‰’
+
+$("textarea").on("select", function(){
+        $("body").css("background","red");
+})
+
+
+$("textarea").select();
+
+ ﬁ»· œ«·… œ«Œ·Â«
+
+$("textarea").on("click", function(){
+        $(this).select();
+})
+
+$("textarea").select( function(){ $(this).css("color","red") } );  œ«·… œ«Œ·Â«
+*************************************
+resize ⁄‰œ ⁄„· «⁄«œ…  ÕÃÌ„ ·⁄‰’— „⁄Ì‰
+
+$(window).on("resize", function(){
+        console.log($(this).width());
+        console.log($(this).height());
+})
+****************************************
+scroll
+
+„À«· ⁄·Ï «·«”ﬂ—Ê·
+$(window).on("scroll", function(){
+        var sc = $(this).scrollTop();
+        console.log(sc);
+        
+        if (sc > 640) {
+            $("div").fadeIn(1000);
+        } else {
+            $("div").fadeOut(1000);
+        }
+})
+
+·«ÕŸ scrollTop()
+ ” Œœ„ ·Ã·» «·«— ›«⁄ ›Êﬁ «·«”ﬂ—Ê· «Ê ·Ã·» «·„”«Õ… «· Ì ‰“·‰«Â« »«·„«Ê”
+
+«÷«› Ì
+$("div").on("click", function() {
+        
+        $(window).animate().scrollTop(0);
+})
+******************************************
+pageX , pageY ·⁄—÷ „ﬂ«‰ «·„«Ê” «·«›ﬁÌ Ê «·—«”Ì
+
+$("html").mousemove(function(event){
+        
+        $("span").text("X:" + event.pageX + " Y:" + event.pageY)
+})
+
+$(window).click(function(event){
+        
+        $(".first").show().offset({
+            "left": event.pageX,
+            "top": event.pageY
+});
+***********************************************
+submit
+
+$("form").submit(function(){
+	//code
+})
+
+
+

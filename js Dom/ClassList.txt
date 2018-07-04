@@ -1,0 +1,23 @@
+<div id="main" class="a1 a2 a3 a4 a5"></div>
+Ïíİ íÍÊæí Úáì ÎãÓ ßáÇÓÇÊ
+
+
+var classes = document.getElementById('main');
+console.log(classes.classList);
+//áÌáÈ ÌãíÚ ÇáßáÇÓÇÊ ÇáÎÇÕÉ ÈÇáÏíİ
+console.log(classes.classList.length);
+//áÌáÈ ÚÏÏ ÇáßáÇÓÇÊ
+console.log(classes.classList.item(0));
+//áÌáÈ ÇáßáÇÓ ÇáÇæá æíãßä ÊÛíÑ ÑŞã ÕİÑ Çáì ÇáÇäÏßÓ ÇáÎÇÕ íÇáßáÇÓ
+if (classes.classList.contains('a1')) {
+    console.log('yes');
+}
+//áãÚÑİÉ ãÇ ÇĞÇ ßÇä ÇáÇíÏí íÍÊæí Úáì ßáÇÓ ãÚíä Çæ áÇ
+
+classes.classList.add('a6');
+//áÇÖÇİÉ ßáÇÓ ááÚäÕÑ
+classes.classList.remove('a6');
+//áÍĞİ ßáÇÓ ãä ÇáÚäÕÑ
+classes.classList.toggle('a6');
+//áÇÖÇİÉ ßáÇÓ ááÚäÕÑ ÇĞÇ áã íßä ãæÌæÏ æÍĞİå ÇĞÇ ßÇä ãæÌæÏ İí ÇáÚäÕÑ
+
